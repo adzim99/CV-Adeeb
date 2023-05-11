@@ -1,7 +1,7 @@
 
 ## What
 
-This CV is created using the **`R`** Package [`vitae`](https://github.com/mitchelloharawild/vitae) with reference from [`tallguyjenks's CV repository`](https://github.com/tallguyjenks/CV) and tailored based on my own personalization.
+This CV is created using the **`R`** Package [`vitae`](https://github.com/mitchelloharawild/vitae) with reference from [`tallguyjenks's CV`](https://github.com/tallguyjenks/CV) repository and tailored based on my own personalization.
 
 ## Why
 
