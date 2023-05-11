@@ -32,7 +32,9 @@ skills <- tribble(
 
 projects <- tribble(
   ~area, ~accomplishment, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "Final Year Project", "Capturing and Retrieval of Risk Assessment and Risk Control Information for Laboratory Experiment", "Feb", 2021, "Jan", 2022, "Islamic Science University of Malaysia", "I used the Waterfall Methodology starting from planning, analysis, design, development, testing, implementation, and maintenance to make the project as smooth as possible. The tools and software I have used are Python Programming Language, Django framework and SQL (SQLite for the local host, then moved to PostgreSQL during deployment) for the web-based system. I uploaded them into Heroku to deploy, manage, and scale the app.",
+  "Final Year Project", "Capturing and Retrieval of Risk Assessment and Risk Control Information for Laboratory Experiment", "Feb", 2021, "Jan", 2022, "Islamic Science University of Malaysia", "I used the Waterfall Methodology starting from planning, analysis, design, development, testing, implementation, and maintenance for the web-based system to make the project as smooth as possible.",
+  "Final Year Project", "Capturing and Retrieval of Risk Assessment and Risk Control Information for Laboratory Experiment", "Feb", 2021, "Jan", 2022, "Islamic Science University of Malaysia", "The tools and software I have used are Python Programming Language, Django framework and SQL (SQLite for the local host, then moved to PostgreSQL during deployment).",
+  "Final Year Project", "Capturing and Retrieval of Risk Assessment and Risk Control Information for Laboratory Experiment", "Feb", 2021, "Jan", 2022, "Islamic Science University of Malaysia", "I uploaded them into GitHub and Heroku to deploy, manage, and scale the app.",
 )
 
 awards <- tribble(
