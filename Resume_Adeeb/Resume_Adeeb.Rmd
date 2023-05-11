@@ -1,0 +1,154 @@
+---
+name: Muhammad Adeeb Azim
+surname: Bin Mohd Nikman
+position: "Computer Science | Data Analyst"
+address: "Kota Bharu, Kelantan, Malaysia"
+profilepic: "./img/me.png"
+pronouns: He/Him
+phone: +60 14-312 8588
+email: "adzimnikman99@gmail.com"
+github: adzim99
+linkedin: adzim99
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 990000
+aboutme: "Highly motivated data analyst with a Bachelor of Computer Science with Honours (Information Security and Assurance) and a Google Data Analytics Professional Certificate. Strong analytical and problem-solving skills with experience in data collection, cleaning, analysis, and visualization. Proficient in spreadsheets, SQL, Tableau, R and Python. Strong attention to detail and the ability to work effectively in a team. I seek opportunities to apply my skills and knowledge to drive data-driven insights and business outcomes."
+docname: Resume
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+require(xfun)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data structure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative File Paths
+             ,'readr'     # Data Loading
+             ,'glue'      # String Manipulation
+            )
+
+xfun::pkg_attach2(packages, message = FALSE)
+
+source(file = here("r","data.r"))
+
+```
+
+# Experience
+
+```{r EXPERIENCE}
+
+experience %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+# Education
+
+```{r EDUCATION}
+
+education %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+# Certifications
+
+```{r CERTIFICATIONS}
+
+certifications %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = glue::glue("{Month} {Year}",.na = ""),
+    where = where
+  )
+
+```
+
+\newpage
+
+# Skills
+
+```{r SKILLS}
+
+skills %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment
+  )
+
+```
+
+# Projects
+
+```{r PROJECTS}
+
+projects %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+# Awards
+
+```{r AWARDS}
+
+awards %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = glue::glue("{Month} {Year}",.na = ""),
+    where = where
+  )
+
+```
+
+# Languages
+
+```{r LANGUAGES}
+
+languages %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment
+  )
+
+```
+
+# References
+
+```{r REFERENCES}
+
+references %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = glue::glue("{number}",.na = ""),
+    where = where
+  )
+
+```
