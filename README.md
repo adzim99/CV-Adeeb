@@ -15,6 +15,6 @@ I use various other packages with `vitae` such as `here`, `tibble`, `glue`, and 
 
 With RStudio i read in my _tribbles_ contained in the `data.r` script containing all my data, then using the `vitae` functions and `glue` string literals, i create the document itself.
 
-Data exists in in the `data.r` file in the `r/` directory and is added to the CV when the script is sourced by the `RMarkdown` document in the main directory.
+Data exists in in the `data.r` file in the `r/` directory and is added to the Resume when the script is sourced by the `RMarkdown` document in the main directory.
 
 The header portion of the document is comprised in the `YAML` portion of the `RMarkdown` document.
