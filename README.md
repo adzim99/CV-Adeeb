@@ -1,11 +1,11 @@
 
 ## What
 
-This CV is created using the **`R`** Package [`vitae`](https://github.com/mitchelloharawild/vitae) with reference from [`tallguyjenks's CV`](https://github.com/tallguyjenks/CV) repository and tailored based on my own personalization.
+This CV is created using the [`R`](https://www.r-project.org/) Package [`vitae`](https://github.com/mitchelloharawild/vitae) with reference from [`tallguyjenks's CV`](https://github.com/tallguyjenks/CV) repository and tailored based on my own personalization.
 
 ## Why
 
-I learned **`R (Programming Language)`** through the [`Google Data Analytics Professional Certificate`](https://grow.google/certificates/data-analytics/) and when I came across one of the modules which is to explore the **`R`** Package I got the idea to create my own Resume with the [`vitae`](https://github.com/mitchelloharawild/vitae) and from there I started exploring on my own with reference to some of the examples from the repository. It was easier to use this package than to create my own from scratch and the template is considered to be professional and neat which are the criteria that I like about it. In addition, I do not have to worry about any additional information as I can just add in new things with ease as it is easily accessible.
+I learned **`R (Programming Language)`** through the [`Google Data Analytics Professional Certificate`](https://grow.google/certificates/data-analytics/) and when I came across one of the modules which is to explore the **`R`** Package I got the idea to create my own Resume with the **`vitae`** and from there I started exploring on my own with reference to some of the examples from the repository. It was easier to use this package than to create my own from scratch and the template is considered to be professional and neat which are the criteria that I like about it. In addition, I do not have to worry about any additional information as I can just add in new things with ease as it is easily accessible.
 
 ## How
 
