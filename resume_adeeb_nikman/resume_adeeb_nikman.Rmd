@@ -5,8 +5,8 @@ position: "Data Analyst | BCompSc (Hons) - Information Security and Assurance"
 address: "Malaysia"
 profilepic: "./img/me.png"
 # pronouns: He/Him
-phone: +60 14-312 8588
-email: "adzimnikman99@gmail.com"
+phone: "Mobile: +60 14-312 8588"
+email: "Email: adzimnikman99@gmail.com"
 # github: adzim99
 linkedin: adzim99
 date: "`r format(Sys.time(), '%B %Y')`"
