@@ -4,11 +4,11 @@ name: Muhammad Adeeb Azim Bin Mohd Nikman
 position: "Data Analyst | BCompSc (Hons) - Information Security and Assurance"
 address: "Malaysia"
 profilepic: "./img/me.png"
+# pronouns: He/Him
 phone: +60 14-312 8588
 email: "adzimnikman99@gmail.com"
-linkedin: adzim99
 # github: adzim99
-# pronouns: He/Him
+linkedin: adzim99
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
 aboutme: "Highly motivated data analyst with a Bachelor of Computer Science with Honours (Information Security and Assurance) and a Google Data Analytics Professional Certificate. Strong analytical and problem-solving skills with experience in data collection, cleaning, analysis, and visualization. Proficient in spreadsheets, SQL, Tableau, R and Python. Strong attention to detail and the ability to work effectively in a team. I seek opportunities to apply my skills and knowledge to drive data-driven insights and business outcomes."
