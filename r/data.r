@@ -14,10 +14,10 @@ education <- tribble(
 
 certifications <- tribble(
   ~area, ~accomplishment, ~Month, ~Year, ~where, ~detail,
-  "Google Business Intelligence Professional Certificate", "In-Progress", "Present", NA, "Coursera | Google", "Practice data modeling and extract, transform, load (ETL) processes that meet organizational goals.",
-  "Google Business Intelligence Professional Certificate", "In-Progress", "Present", NA, "Coursera | Google", "Explore the roles of business intelligence (BI) professionals within an organization.",
-  "Google Business Intelligence Professional Certificate", "In-Progress", "Present", NA, "Coursera | Google", "Create dashboards that effectively communicate data insights to stakeholders.",
-  "Google Business Intelligence Professional Certificate", "In-Progress", "Present", NA, "Coursera | Google", "Design data visualizations that answer business questions.",
+  # "Google Business Intelligence Professional Certificate", "In-Progress", "Present", NA, "Coursera | Google", "Practice data modeling and extract, transform, load (ETL) processes that meet organizational goals.",
+  # "Google Business Intelligence Professional Certificate", "In-Progress", "Present", NA, "Coursera | Google", "Explore the roles of business intelligence (BI) professionals within an organization.",
+  # "Google Business Intelligence Professional Certificate", "In-Progress", "Present", NA, "Coursera | Google", "Create dashboards that effectively communicate data insights to stakeholders.",
+  # "Google Business Intelligence Professional Certificate", "In-Progress", "Present", NA, "Coursera | Google", "Design data visualizations that answer business questions.",
   "Google Data Analytics Professional Certificate", "Credential ID: 8S9ZCE7C6XU3", "Apr", 2023, "Coursera | Google", "Understand how to clean and organize data for analysis, and complete analysis and calculations using spreadsheets, SQL and R programming.",
   "Google Data Analytics Professional Certificate", "Credential ID: 8S9ZCE7C6XU3", "Apr", 2023, "Coursera | Google", "Gain an immersive understanding of the practices and processes used by a junior or associate data analyst in their day-to-day job.",
   "Google Data Analytics Professional Certificate", "Credential ID: 8S9ZCE7C6XU3", "Apr", 2023, "Coursera | Google", "Learn how to visualize and present data findings in dashboards, presentations and commonly used visualization platforms.",
