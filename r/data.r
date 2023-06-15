@@ -1,3 +1,10 @@
+about <- tribble(
+  ~detail,
+  "A highly motivated person with Google Business Intelligence & Data Analytics Professional Certificates and a Bachelor of Computer Science with Honours (Information Security and Assurance).",
+  "Strong analytical and problem-solving skills with experience in data collection, cleaning, analysis, and visualization with proficiency in spreadsheets, SQL, Tableau and Programming Languages (R & Python).",
+  "Attention to detail and the ability to work effectively in a team where I seek opportunities to apply my skills and knowledge to drive data-driven insights and business outcomes.",
+)
+
 experience <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
   "System Analyst", "Pipeline Network Sdn. Bhd. | Full-time", "Aug", 2022, "Jan", 2023, "Petaling Jaya, Selangor, Malaysia", "Tender with the client and contact them about the designated project to ensure it goes smoothly by documenting the requirements. Follow through the Software Development Life Cycle (SDLC), and each phase plays a significant role in submitting upon deadline.",
@@ -14,10 +21,10 @@ education <- tribble(
 
 certifications <- tribble(
   ~area, ~accomplishment, ~Month, ~Year, ~where, ~detail,
-  # "Google Business Intelligence Professional Certificate", "In-Progress", "Present", NA, "Coursera | Google", "Practice data modeling and extract, transform, load (ETL) processes that meet organizational goals.",
-  # "Google Business Intelligence Professional Certificate", "In-Progress", "Present", NA, "Coursera | Google", "Explore the roles of business intelligence (BI) professionals within an organization.",
-  # "Google Business Intelligence Professional Certificate", "In-Progress", "Present", NA, "Coursera | Google", "Create dashboards that effectively communicate data insights to stakeholders.",
-  # "Google Business Intelligence Professional Certificate", "In-Progress", "Present", NA, "Coursera | Google", "Design data visualizations that answer business questions.",
+  "Google Business Intelligence Professional Certificate", "Credential ID: CLPDWT9KS9QD", "Jun", 2023, "Coursera | Google", "Practice data modeling and extract, transform, load (ETL) processes that meet organizational goals.",
+  "Google Business Intelligence Professional Certificate", "Credential ID: CLPDWT9KS9QD", "Jun", 2023, "Coursera | Google", "Explore the roles of business intelligence (BI) professionals within an organization.",
+  "Google Business Intelligence Professional Certificate", "Credential ID: CLPDWT9KS9QD", "Jun", 2023, "Coursera | Google", "Create dashboards that effectively communicate data insights to stakeholders.",
+  "Google Business Intelligence Professional Certificate", "Credential ID: CLPDWT9KS9QD", "Jun", 2023, "Coursera | Google", "Design data visualizations that answer business questions.",
   "Google Data Analytics Professional Certificate", "Credential ID: 8S9ZCE7C6XU3", "Apr", 2023, "Coursera | Google", "Understand how to clean and organize data for analysis, and complete analysis and calculations using spreadsheets, SQL and R programming.",
   "Google Data Analytics Professional Certificate", "Credential ID: 8S9ZCE7C6XU3", "Apr", 2023, "Coursera | Google", "Gain an immersive understanding of the practices and processes used by a junior or associate data analyst in their day-to-day job.",
   "Google Data Analytics Professional Certificate", "Credential ID: 8S9ZCE7C6XU3", "Apr", 2023, "Coursera | Google", "Learn how to visualize and present data findings in dashboards, presentations and commonly used visualization platforms.",
@@ -26,8 +33,8 @@ certifications <- tribble(
 
 skills <- tribble(
   ~area, ~accomplishment,
-  "Industry Knowledge", "Data Analysis - Spreadsheets - Data Structures - Data Visualization - Database Management System (DBMS)",
-  "Tools and Technologies", "SQL - Django - Tableau - R (Programming Language) - Python (Programming Language)",
+  "Industry Knowledge", "Database Management System (DBMS) - Extract, Transform, Load (ETL) - Business Intelligence (BI) - Data Visualization - Data Structures - Data Analytics - Data Analysis - Data Modeling - Spreadsheets - RStudio",
+  "Tools and Technologies", "Python (Programming Language) - R (Programming Language) - Google Cloud Dataflow - Google BigQuery - Tableau - Kaggle - SQL",
 )
 
 projects <- tribble(

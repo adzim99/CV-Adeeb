@@ -1,17 +1,17 @@
 ---
 # name: "Muhammad Adeeb Azim Bin Mohd Nikman"
 surname: "Muhammad Adeeb Azim Bin Mohd Nikman"
-position: "Data Analyst | BCompSc (Hons) - Information Security and Assurance"
-address: "Malaysia"
+position: "Google Business Intelligence & Data Analytics Professional Certificates | BCompSc"
+address: "Kota Bharu, Kelantan, Malaysia"
 date: "`r format(Sys.time(), '%B %Y')`"
 profilepic: "./img/me.png"
 pronouns: "He/Him"
 phone: "(+60) 14-312 8588"
-# www: "adzimnikman99@gmail.com"
+# www: "https://public.tableau.com/app/profile/adeeb.nikman"
 email: "adzimnikman99@gmail.com"
 github: "adzim99"
 linkedin: "adzim99"
-aboutme: "Highly motivated data analyst with a Bachelor of Computer Science with Honours (Information Security and Assurance) and a Google Data Analytics Professional Certificate. Strong analytical and problem-solving skills with experience in data collection, cleaning, analysis, and visualization. Proficient in spreadsheets, SQL, Tableau, R and Python. Strong attention to detail and the ability to work effectively in a team. I seek opportunities to apply my skills and knowledge to drive data-driven insights and business outcomes."
+# aboutme: "Google Business Intelligence & Data Analytics Professional Certificates | BCompSc"
 headcolor: 990000
 docname: Résumé
 output: vitae::awesomecv
@@ -35,6 +35,18 @@ packages <- c('vitae'     # The CV's LaTeX Template
 xfun::pkg_attach2(packages, message = FALSE)
 
 source(file = here("r","data.r"))
+
+```
+
+
+# About Me
+
+```{r ABOUT}
+
+about %>%
+  detailed_entries(
+    why = detail,
+  )
 
 ```
 
@@ -83,19 +95,19 @@ certifications %>%
 
 ```
 
+<!-- \newpage -->
+
 # Skills
 
 ```{r SKILLS}
 
 skills %>%
   detailed_entries(
-    with = area,
-    what = accomplishment
+    what = area,
+    why = accomplishment
   )
 
 ```
-
-\newpage
 
 # Projects
 
