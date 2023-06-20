@@ -28,7 +28,7 @@ certifications <- tribble(
 
 projects <- tribble(
   ~area, ~accomplishment, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "", "Resume", "Feb", 2023, "Present", NA, "", "Created this resume using R (Programming Language) with the Vitae package",
+  "", "Résumé", "Feb", 2023, "Present", NA, "", "Created this Résumé using R (Programming Language) with the Vitae package",
   "Case Study", "Google Business Intelligence Professional Certificate | Google Fiber", "May", 2023, "Jun", 2023, "Coursera | Google", "Perform ETL in Google BigQuery, then import the data into Tableau and create visualisations for Repeats by Month, Table, Day 1 Call by Market & Day 0 and Day 1 Calls",
   "", "Google Data Analytics Professional Certificate | Cyclistic", "Feb", 2023, "Jun ", 2023, "", "Perform ETL in Google BigQuery, then import the data into Tableau and create visualisations for Number of Trips, Seasonality & Top Trips",
   "Final Year Project", "Capturing and Retrieval of Risk Assessment and Risk Control Information for Laboratory Experiment", "Feb", 2021, "Jan", 2022, "Islamic Science University of Malaysia", "I used the Waterfall Methodology starting from planning, analysis, design, development, testing, implementation, and maintenance for the web-based system to make the project as smooth as possible. The tools and software I have used are Python Programming Language, Django framework and SQL (SQLite for the local host, then moved to PostgreSQL during deployment). I uploaded them into GitHub and Heroku to deploy, manage, and scale the app.",
