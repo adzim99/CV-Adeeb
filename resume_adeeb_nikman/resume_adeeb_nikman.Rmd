@@ -1,7 +1,7 @@
 ---
 # name: "Muhammad Adeeb Azim Bin Mohd Nikman"
 surname: "Muhammad Adeeb Azim Bin Mohd Nikman"
-position: "Google Business Intelligence & Data Analytics Professional Certificates | BCompSc"
+position: "Business Intelligence | Data Analytics | BCompSc"
 address: "Kota Bharu, Kelantan, Malaysia"
 date: "`r format(Sys.time(), '%B %Y')`"
 profilepic: "./img/me.png"
@@ -38,8 +38,7 @@ source(file = here("r","data.r"))
 
 ```
 
-
-# About Me
+# About
 
 ```{r ABOUT}
 
@@ -88,7 +87,6 @@ certifications %>%
   detailed_entries(
     with = area,
     what = accomplishment,
-    why = detail,
     when = glue::glue("{Month} {Year}",.na = ""),
     where = where
   )
@@ -96,18 +94,6 @@ certifications %>%
 ```
 
 <!-- \newpage -->
-
-# Skills
-
-```{r SKILLS}
-
-skills %>%
-  detailed_entries(
-    what = area,
-    why = accomplishment
-  )
-
-```
 
 # Projects
 
@@ -120,6 +106,18 @@ projects %>%
     why = detail,
     when = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}",.na = ""),
     where = where
+  )
+
+```
+
+# Skills
+
+```{r SKILLS}
+
+skills %>%
+  detailed_entries(
+    what = area,
+    why = accomplishment
   )
 
 ```

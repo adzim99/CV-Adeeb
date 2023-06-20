@@ -1,7 +1,7 @@
 about <- tribble(
   ~detail,
   "A highly motivated person with Google Business Intelligence & Data Analytics Professional Certificates and a Bachelor of Computer Science with Honours (Information Security and Assurance).",
-  "Strong analytical and problem-solving skills with experience in data collection, cleaning, analysis, and visualization with proficiency in spreadsheets, SQL, Tableau and Programming Languages (R & Python).",
+  "Strong analytical and problem-solving skills with experience in data collection, cleaning, analysis, and visualization with proficiency in Spreadsheets, SQL, Tableau and Programming Languages (R & Python).",
   "Attention to detail and the ability to work effectively in a team where I seek opportunities to apply my skills and knowledge to drive data-driven insights and business outcomes.",
 )
 
@@ -16,32 +16,28 @@ experience <- tribble(
 education <- tribble(
   ~degree, ~startMonth, ~startYear, ~endMonth, ~endYear, ~inst, ~where, ~detail,
   "Bachelor of Computer Science with Honours (Information Security and Assurance)", "Sep", 2018, "Dec", 2022, "Islamic Science University of Malaysia", "Nilai, Negeri Sembilan, Malaysia", "Activities and societies: Director for ICT Click 2020, Sports Exco for Information Security and Assurance Committee (ISAC) and Trainer for the LEGO Committee.",
-  "Tamhidi of Science and Technology", "May", 2017, "Jul", 2018, "", "", "I started at the Tamhidi of Science and Technology in this institution for a year and continued the Bachelor of Computer Science with Honours (Information Security and Assurance) for four years.",
+  "Bachelor of Computer Science with Honours (Information Security and Assurance)", "Sep", 2018, "Dec", 2022, "Islamic Science University of Malaysia", "Nilai, Negeri Sembilan, Malaysia", "I started studying at the Islamic Science University of Malaysia for a year in Foundation Degree (Tamhidi of Science and Technology). Then, I continued my Bachelor's Degree (Bachelor of Computer Science with Honours - Information Security and Assurance) for four years.",
+  "Tamhidi of Science and Technology", "May", 2017, "Jul", 2018, "", "", "Activities and societies: DOTA 2 eSports Team for the ASASI Games 2018 (TAG18) and Arabic Public Speaking for Arabic Language Programme",
 )
 
 certifications <- tribble(
-  ~area, ~accomplishment, ~Month, ~Year, ~where, ~detail,
-  "Google Business Intelligence Professional Certificate", "Credential ID: CLPDWT9KS9QD", "Jun", 2023, "Coursera | Google", "Practice data modeling and extract, transform, load (ETL) processes that meet organizational goals.",
-  "Google Business Intelligence Professional Certificate", "Credential ID: CLPDWT9KS9QD", "Jun", 2023, "Coursera | Google", "Explore the roles of business intelligence (BI) professionals within an organization.",
-  "Google Business Intelligence Professional Certificate", "Credential ID: CLPDWT9KS9QD", "Jun", 2023, "Coursera | Google", "Create dashboards that effectively communicate data insights to stakeholders.",
-  "Google Business Intelligence Professional Certificate", "Credential ID: CLPDWT9KS9QD", "Jun", 2023, "Coursera | Google", "Design data visualizations that answer business questions.",
-  "Google Data Analytics Professional Certificate", "Credential ID: 8S9ZCE7C6XU3", "Apr", 2023, "Coursera | Google", "Understand how to clean and organize data for analysis, and complete analysis and calculations using spreadsheets, SQL and R programming.",
-  "Google Data Analytics Professional Certificate", "Credential ID: 8S9ZCE7C6XU3", "Apr", 2023, "Coursera | Google", "Gain an immersive understanding of the practices and processes used by a junior or associate data analyst in their day-to-day job.",
-  "Google Data Analytics Professional Certificate", "Credential ID: 8S9ZCE7C6XU3", "Apr", 2023, "Coursera | Google", "Learn how to visualize and present data findings in dashboards, presentations and commonly used visualization platforms.",
-  "Google Data Analytics Professional Certificate", "Credential ID: 8S9ZCE7C6XU3", "Apr", 2023, "Coursera | Google", "Learn key analytical skills (data cleaning, analysis, & visualization) and tools (spreadsheets, SQL, R programming, Tableau).",
+  ~area, ~accomplishment, ~Month, ~Year, ~where,
+  "Google Business Intelligence Professional Certificate", "Credential ID: CLPDWT9KS9QD", "Jun", 2023, "Coursera | Google",
+  "Google Data Analytics Professional Certificate", "Credential ID: 8S9ZCE7C6XU3", "Apr", 2023, "Coursera | Google",
+)
+
+projects <- tribble(
+  ~area, ~accomplishment, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "", "Resume", "Feb", 2023, "Present", NA, "", "Created this resume using R (Programming Language) with the Vitae package",
+  "Case Study", "Google Business Intelligence Professional Certificate | Google Fiber", "May", 2023, "Jun", 2023, "Coursera | Google", "Perform ETL in Google BigQuery, then import the data into Tableau and create visualisations for Repeats by Month, Table, Day 1 Call by Market & Day 0 and Day 1 Calls",
+  "", "Google Data Analytics Professional Certificate | Cyclistic", "Feb", 2023, "Jun ", 2023, "", "Perform ETL in Google BigQuery, then import the data into Tableau and create visualisations for Number of Trips, Seasonality & Top Trips",
+  "Final Year Project", "Capturing and Retrieval of Risk Assessment and Risk Control Information for Laboratory Experiment", "Feb", 2021, "Jan", 2022, "Islamic Science University of Malaysia", "I used the Waterfall Methodology starting from planning, analysis, design, development, testing, implementation, and maintenance for the web-based system to make the project as smooth as possible. The tools and software I have used are Python Programming Language, Django framework and SQL (SQLite for the local host, then moved to PostgreSQL during deployment). I uploaded them into GitHub and Heroku to deploy, manage, and scale the app.",
 )
 
 skills <- tribble(
   ~area, ~accomplishment,
   "Industry Knowledge", "Database Management System (DBMS) - Extract, Transform, Load (ETL) - Business Intelligence (BI) - Data Visualization - Data Structures - Data Analytics - Data Analysis - Data Modeling - Spreadsheets - RStudio",
-  "Tools and Technologies", "Python (Programming Language) - R (Programming Language) - Google Cloud Dataflow - Google BigQuery - Tableau - Kaggle - SQL",
-)
-
-projects <- tribble(
-  ~area, ~accomplishment, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "Final Year Project", "Capturing and Retrieval of Risk Assessment and Risk Control Information for Laboratory Experiment", "Feb", 2021, "Jan", 2022, "Islamic Science University of Malaysia", "I used the Waterfall Methodology starting from planning, analysis, design, development, testing, implementation, and maintenance for the web-based system to make the project as smooth as possible.",
-  "Final Year Project", "Capturing and Retrieval of Risk Assessment and Risk Control Information for Laboratory Experiment", "Feb", 2021, "Jan", 2022, "Islamic Science University of Malaysia", "The tools and software I have used are Python Programming Language, Django framework and SQL (SQLite for the local host, then moved to PostgreSQL during deployment).",
-  "Final Year Project", "Capturing and Retrieval of Risk Assessment and Risk Control Information for Laboratory Experiment", "Feb", 2021, "Jan", 2022, "Islamic Science University of Malaysia", "I uploaded them into GitHub and Heroku to deploy, manage, and scale the app.",
+  "Tools and Technologies", "Python (Programming Language) - R (Programming Language) - R Markdown - Google Cloud Dataflow - Google BigQuery - Tableau - Django - Kaggle - SQL",
 )
 
 awards <- tribble(
