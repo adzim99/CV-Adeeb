@@ -1,17 +1,13 @@
 ---
-# name: "Muhammad Adeeb Azim Bin Mohd Nikman"
-surname: "Muhammad Adeeb Azim Bin Mohd Nikman"
-position: "Business Intelligence | Data Analytics | BCompSc"
+name: "Muhammad Adeeb Azim"
+surname: "Bin Mohd Nikman"
 address: "Kota Bharu, Kelantan, Malaysia"
 date: "`r format(Sys.time(), '%B %Y')`"
 profilepic: "./img/me.png"
-pronouns: "He/Him"
-phone: "(+60) 14-312 8588"
-# www: "https://public.tableau.com/app/profile/adeeb.nikman"
+phone: "+60143128588"
 email: "adzimnikman99@gmail.com"
 github: "adzim99"
 linkedin: "adzim99"
-# aboutme: "Google Business Intelligence & Data Analytics Professional Certificates | BCompSc"
 headcolor: 990000
 docname: Résumé
 output: vitae::awesomecv
@@ -38,11 +34,11 @@ source(file = here("r","data.r"))
 
 ```
 
-# About
+# Summary
 
-```{r ABOUT}
+```{r SUMMARY}
 
-about %>%
+summary %>%
   detailed_entries(
     why = detail,
   )
@@ -116,8 +112,7 @@ projects %>%
 
 skills %>%
   detailed_entries(
-    what = area,
-    why = accomplishment
+    why = detail,
   )
 
 ```
@@ -129,7 +124,6 @@ skills %>%
 awards %>%
   detailed_entries(
     with = area,
-    what = accomplishment,
     why = detail,
     when = glue::glue("{Month} {Year}",.na = ""),
     where = where
