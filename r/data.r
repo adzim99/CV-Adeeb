@@ -1,6 +1,6 @@
 summary <- tribble(
   ~detail,
-  "A highly motivated person with Google Business Intelligence & Data Analytics Professional Certificates and a Bachelor of Computer Science with Honours (Information Security and Assurance).",
+  "A highly motivated person with Google Business Intelligence Professional Certificate, Google Data Analytics Professional Certificate and a Bachelor of Computer Science with Honours (Information Security and Assurance).",
   "Strong analytical and problem-solving skills with experience in data collection, cleaning, analysis, and visualization with proficiency in Spreadsheets, SQL, Tableau and Programming Languages (R & Python).",
   "Attention to detail and the ability to work effectively in a team where I seek opportunities to apply my skills and knowledge to drive data-driven insights and business outcomes.",
 )
