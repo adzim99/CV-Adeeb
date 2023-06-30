@@ -14,7 +14,7 @@ experience <- tribble(
 education <- tribble(
   ~degree, ~startMonth, ~startYear, ~endMonth, ~endYear, ~inst, ~where, ~detail,
   "Bachelor of Computer Science with Honours, Information Security and Assurance", "Sep", 2018, "Dec", 2022, "Islamic Science University of Malaysia", "Nilai, Negeri Sembilan, Malaysia", "Grade: 3.70 / 4.0",
-  "Bachelor of Computer Science with Honours, Information Security and Assurance", "Sep", 2018, "Dec", 2022, "Islamic Science University of Malaysia", "Nilai, Negeri Sembilan, Malaysia", "Activities and societies: Director for ICT Click 2020, Sports Exco for Information Security and Assurance Committee (ISAC) and Trainer for the LEGO Committee.",
+  "Bachelor of Computer Science with Honours, Information Security and Assurance", "Sep", 2018, "Dec", 2022, "Islamic Science University of Malaysia", "Nilai, Negeri Sembilan, Malaysia", "Activities and societies: Director for ICT Click 2020, Sports Exco for Information Security and Assurance Committee (ISAC) and Trainer for the LEGO Committee",
   "Tamhidi, Science and Technology", "May", 2017, "Jul", 2018, "Islamic Science University of Malaysia", "Nilai, Negeri Sembilan, Malaysia", "Grade: 2.86 / 4.0",
   "Tamhidi, Science and Technology", "May", 2017, "Jul", 2018, "Islamic Science University of Malaysia", "Nilai, Negeri Sembilan, Malaysia", "Activities and societies: DOTA 2 eSports Team for the ASASI Games 2018 (TAG18) and Arabic Public Speaking for Arabic Language Programme",
 )
