@@ -1,6 +1,8 @@
 summary <- tribble(
   ~detail,
-  "A highly motivated Bachelor of Computer Science with Honours (Information Security and Assurance) graduate with the Google Data Analytics Professional Certificate, Google Business Intelligence Professional Certificate and pursuing Google Advanced Data Analytics Professional Certificate. Strong analytical and problem-solving skills with experience in data collection, cleaning, analysis, and visualization with proficiency in Spreadsheets (Microsoft Excel & Google Sheets), Databases (SQL), Data Visualisation (Tableau & Microsoft Power BI) and Programming Languages (Python & R). Attention to detail and the ability to work effectively in a team where I seek opportunities to apply my skills and knowledge to drive data-driven insights and business outcomes.",
+  "A highly motivated Bachelor of Computer Science with Honours (Information Security and Assurance) graduate with the Google Data Analytics Professional Certificate, Google Business Intelligence Professional Certificate and pursuing Google Advanced Data Analytics Professional Certificate.",
+  "Strong analytical and problem-solving skills with experience in data collection, cleaning, analysis, and visualization with proficiency in Spreadsheets (Microsoft Excel & Google Sheets), Databases (SQL), Data Visualisation (Tableau & Microsoft Power BI) and Programming Languages (Python & R).",
+  "Attention to detail and the ability to work effectively in a team where I seek opportunities to apply my skills and knowledge to drive data-driven insights and business outcomes."
 )
 
 experience <- tribble(
@@ -11,9 +13,18 @@ experience <- tribble(
 
 education <- tribble(
   ~degree, ~startMonth, ~startYear, ~endMonth, ~endYear, ~inst, ~where, ~detail,
-  "Google Advanced Data Analytics Professional Certificate", "Aug", 2023, "Present", NA, "Coursera", "Online", "Explore the roles of data professionals within an organization. Create data visualizations and apply statistical methods to investigate data. Build regression and machine learning models to analyze and interpret data. Communicate insights from data analysis to stakeholders.",
-  "Google Business Intelligence Professional Certificate", "May", 2023, "Jun", 2023, "Coursera", "Online", "Explore the roles of business intelligence (BI) professionals within an organization. Practice data modeling and extract, transform, load (ETL) processes that meet organizational goals. Design data visualizations that answer business questions. Create dashboards that effectively communicate data insights to stakeholders.",
-  "Google Data Analytics Professional Certificate", "Feb", 2023, "Apr", 2023, "Coursera", "Online", "Gain an immersive understanding of the practices and processes used by a junior or associate data analyst in their day-to-day job. Learn key analytical skills (data cleaning, analysis, & visualization) and tools (spreadsheets, SQL, R programming, Tableau). Understand how to clean and organize data for analysis, and complete analysis and calculations using spreadsheets, SQL and R programming. Learn how to visualize and present data findings in dashboards, presentations and commonly used visualization platforms.",
+  "Google Advanced Data Analytics Professional Certificate", "Aug", 2023, "Present", NA, "Coursera", "Online", "Explore the roles of data professionals within an organization.",
+  "Google Advanced Data Analytics Professional Certificate", "Aug", 2023, "Present", NA, "Coursera", "Online", "Create data visualizations and apply statistical methods to investigate data.",
+  "Google Advanced Data Analytics Professional Certificate", "Aug", 2023, "Present", NA, "Coursera", "Online", "Build regression and machine learning models to analyze and interpret data.",
+  "Google Advanced Data Analytics Professional Certificate", "Aug", 2023, "Present", NA, "Coursera", "Online", "Communicate insights from data analysis to stakeholders.",
+  "Google Business Intelligence Professional Certificate", "May", 2023, "Jun", 2023, "Coursera", "Online", "Explore the roles of business intelligence (BI) professionals within an organization.",
+  "Google Business Intelligence Professional Certificate", "May", 2023, "Jun", 2023, "Coursera", "Online", "Practice data modeling and extract, transform, load (ETL) processes that meet organizational goals.",
+  "Google Business Intelligence Professional Certificate", "May", 2023, "Jun", 2023, "Coursera", "Online", "Design data visualizations that answer business questions.",
+  "Google Business Intelligence Professional Certificate", "May", 2023, "Jun", 2023, "Coursera", "Online", "Create dashboards that effectively communicate data insights to stakeholders.",
+  "Google Data Analytics Professional Certificate", "Feb", 2023, "Apr", 2023, "Coursera", "Online", "Gain an immersive understanding of the practices and processes used by a junior or associate data analyst in their day-to-day job.",
+  "Google Data Analytics Professional Certificate", "Feb", 2023, "Apr", 2023, "Coursera", "Online", "Learn key analytical skills (data cleaning, analysis, & visualization) and tools (spreadsheets, SQL, R programming, Tableau).",
+  "Google Data Analytics Professional Certificate", "Feb", 2023, "Apr", 2023, "Coursera", "Online", "Understand how to clean and organize data for analysis, and complete analysis and calculations using spreadsheets, SQL and R programming.",
+  "Google Data Analytics Professional Certificate", "Feb", 2023, "Apr", 2023, "Coursera", "Online", "Learn how to visualize and present data findings in dashboards, presentations and commonly used visualization platforms.",
   "Bachelor of Computer Science with Honours, Information Security and Assurance", "Sep", 2018, "Dec", 2022, "Islamic Science University of Malaysia", "Nilai, Negeri Sembilan, Malaysia", "Grade: 3.70 / 4.0",
   "Bachelor of Computer Science with Honours, Information Security and Assurance", "Sep", 2018, "Dec", 2022, "Islamic Science University of Malaysia", "Nilai, Negeri Sembilan, Malaysia", "Activities and societies: Director for ICT Click 2020, Sports Exco for Information Security and Assurance Committee (ISAC) and Trainer for the LEGO Committee.",
   "Tamhidi, Science and Technology", "May", 2017, "Jul", 2018, "Islamic Science University of Malaysia", "Nilai, Negeri Sembilan, Malaysia", "Grade: 2.86 / 4.0",
@@ -28,7 +39,7 @@ certifications <- tribble(
 
 projects <- tribble(
   ~area, ~accomplishment, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "Curriculum Vitae", "Curriculum Vitae Adeeb Nikman", "Feb", 2023, "Present", NA, "GitHub", "Created this Curriculum Vitae using R (Programming Language) with the Vitae package.",
+  "Curriculum Vitae", "Curriculum Vitae Adeeb Nikman", "Feb", 2023, "Present", NA, "GitHub", "I created my Curriculum Vitae in RStudio using R (Programming Language) with the Vitae package.",
   "Google Business Intelligence Professional Certificate", "Google Fiber Case Study", "May", 2023, "Jun", 2023, "Tableau", "Perform ETL in Google BigQuery, then import the data into Tableau and create visualisations for Repeats by Month, Table, Day 1 Call by Market & Day 0 and Day 1 Calls.",
   "Google Data Analytics Professional Certificate", "Cyclistic Case Study", "Feb", 2023, "Jun ", 2023, "Tableau", "Perform ETL in Google BigQuery, then import the data into Tableau and create visualisations for Number of Trips, Seasonality & Top Trips.",
   "Capturing and Retrieval of Risk Assessment and Risk Control Information for Laboratory Experiment", "Final Year Project Risk Assessment And Risk Control", "Feb", 2021, "Jan", 2022, "GitHub", "I used the Waterfall Methodology starting from planning, analysis, design, development, testing, implementation, and maintenance for the web-based system to make the project as smooth as possible. The tools and software I have used are Python Programming Language, Django framework and SQL (SQLite for the local host, then moved to PostgreSQL during deployment). I uploaded them into GitHub and Heroku to deploy, manage, and scale the app.",
@@ -50,9 +61,4 @@ languages <- tribble(
   "English", "Full professional proficiency",
   "Arabic", "Limited working proficiency",
   "Chinese", "Elementary proficiency",
-)
-
-references <- tribble(
-  ~area, ~accomplishment, ~number, ~where, ~detail,
-  "Associate Prof. Dr. Sakinah Ali Pitchay", "Islamic Science University of Malaysia", "(+60)67986426", "sakinah.ali@usim.edu.my", "Deputy Dean (Student Affairs & Alumni) | Faculty of Science and Technology",
 )

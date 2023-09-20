@@ -89,8 +89,6 @@ certifications %>%
 
 ```
 
-<!-- \newpage -->
-
 # Projects
 
 ```{r PROJECTS}
@@ -131,6 +129,8 @@ awards %>%
 
 ```
 
+\newpage
+
 # Languages
 
 ```{r LANGUAGES}
@@ -138,22 +138,7 @@ awards %>%
 languages %>%
   detailed_entries(
     with = area,
-    what = accomplishment
-  )
-
-```
-
-# References
-
-```{r REFERENCES}
-
-references %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = glue::glue("{number}",.na = ""),
-    where = where
+    where = accomplishment
   )
 
 ```
