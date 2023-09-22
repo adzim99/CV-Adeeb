@@ -39,7 +39,8 @@ certifications <- tribble(
 
 projects <- tribble(
   ~area, ~accomplishment, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "Curriculum Vitae", "Curriculum Vitae Adeeb Nikman", "Feb", 2023, "Present", NA, "GitHub", "I created my Curriculum Vitae in RStudio using R (Programming Language) with the Vitae package.",
+  "Portfolio", "Adeeb's Website", "Jun", 2023, "Present", NA, "GitHub", "I created a website using HTML and CSS to compile my past works in a digital portfolio and push it into GitHub to be accessible to anyone.",
+  "Curriculum Vitae", "Curriculum Vitae Adeeb Nikman", "May", 2023, "Present", NA, "GitHub", "I created my Curriculum Vitae in RStudio using R (Programming Language) with the Vitae package.",
   "Google Business Intelligence Professional Certificate", "Google Fiber Case Study", "May", 2023, "Jun", 2023, "Tableau", "Perform ETL in Google BigQuery, then import the data into Tableau and create visualisations for Repeats by Month, Table, Day 1 Call by Market & Day 0 and Day 1 Calls.",
   "Google Data Analytics Professional Certificate", "Cyclistic Case Study", "Feb", 2023, "Jun ", 2023, "Tableau", "Perform ETL in Google BigQuery, then import the data into Tableau and create visualisations for Number of Trips, Seasonality & Top Trips.",
   "Capturing and Retrieval of Risk Assessment and Risk Control Information for Laboratory Experiment", "Final Year Project Risk Assessment And Risk Control", "Feb", 2021, "Jan", 2022, "GitHub", "I used the Waterfall Methodology starting from planning, analysis, design, development, testing, implementation, and maintenance for the web-based system to make the project as smooth as possible. The tools and software I have used are Python Programming Language, Django framework and SQL (SQLite for the local host, then moved to PostgreSQL during deployment). I uploaded them into GitHub and Heroku to deploy, manage, and scale the app.",

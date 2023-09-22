@@ -6,7 +6,7 @@ date: "`r format(Sys.time(), '%B %Y')`"
 profilepic: "./img/Adeeb.png"
 phone: "(+60)143128588"
 email: "adzimnikman99@gmail.com"
-www: "maa99.w3spaces.com"
+www: "adzim99.github.io"
 linkedin: "adzim99"
 headcolor: 990000
 docname: Curriculum Vitae
