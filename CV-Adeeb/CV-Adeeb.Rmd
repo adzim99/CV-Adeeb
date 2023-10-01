@@ -1,14 +1,14 @@
 ---
-name: "Muhammad Adeeb Azim"
-surname: "Bin Mohd Nikman"
+# name: "Muhammad Adeeb Azim"
+surname: "Muhammad Adeeb Azim Bin Mohd Nikman"
 address: "Kota Bharu, Kelantan, Malaysia"
-date: "`r format(Sys.time(), '%B %Y')`"
-profilepic: "./img/Adeeb.png"
+date: "`r format(Sys.time(), '%b %Y')`"
+# profilepic: "./img/Adeeb.png"
 phone: "(+60)143128588"
 email: "adzimnikman99@gmail.com"
 www: "adzim99.github.io"
 linkedin: "adzim99"
-headcolor: 990000
+headcolor: 111111
 docname: Curriculum Vitae
 output: vitae::awesomecv
 ---
@@ -34,16 +34,16 @@ source(file = here("r","data.r"))
 
 ```
 
-# Summary
+<!-- # Summary -->
 
-```{r SUMMARY}
+<!-- ```{r SUMMARY} -->
 
-summary %>%
-  detailed_entries(
-    why = detail,
-  )
+<!-- summary %>% -->
+<!--   detailed_entries( -->
+<!--     why = detail, -->
+<!--   ) -->
 
-```
+<!-- ``` -->
 
 # Experience
 
@@ -54,8 +54,8 @@ experience %>%
     with = title,
     what = unit,
     why = detail,
-    when = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}",.na = ""),
-    where = where
+    where = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}",.na = ""),
+    when = where
   )
 
 ```
@@ -66,25 +66,11 @@ experience %>%
 
 education %>%
   detailed_entries(
-    with = inst,
-    what = degree,
+    with = title,
+    what = unit,
     why = detail,
-    when = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}",.na = ""),
-    where = where
-  )
-
-```
-
-# Certifications
-
-```{r CERTIFICATIONS}
-
-certifications %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
-    when = glue::glue("{Month} {Year}",.na = ""),
-    where = where
+    where = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}",.na = ""),
+    when = where
   )
 
 ```
@@ -98,19 +84,22 @@ projects %>%
     with = area,
     what = accomplishment,
     why = detail,
-    when = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}",.na = ""),
-    where = where
+    where = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}",.na = ""),
+    when = where
   )
 
 ```
 
-# Skills
+# Certifications
 
-```{r SKILLS}
+```{r CERTIFICATIONS}
 
-skills %>%
+certifications %>%
   detailed_entries(
-    why = detail,
+    with = area,
+    what = accomplishment,
+    where = glue::glue("{Month} {Year}",.na = ""),
+    when = where
   )
 
 ```
@@ -122,23 +111,22 @@ skills %>%
 awards %>%
   detailed_entries(
     with = area,
+    what = unit,
     why = detail,
-    when = glue::glue("{Month} {Year}",.na = ""),
-    where = where
+    where = glue::glue("{Month} {Year}",.na = ""),
+    when = where
   )
 
 ```
 
-\newpage
+# Skills and Languages
 
-# Languages
+```{r SKILLS}
 
-```{r LANGUAGES}
-
-languages %>%
+skills %>%
   detailed_entries(
-    with = area,
-    where = accomplishment
+    what = accomplishment,
+    why = detail,
   )
 
 ```
