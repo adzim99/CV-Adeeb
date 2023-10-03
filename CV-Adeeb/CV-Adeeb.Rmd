@@ -34,17 +34,6 @@ source(file = here("r","data.r"))
 
 ```
 
-<!-- # Summary -->
-
-<!-- ```{r SUMMARY} -->
-
-<!-- summary %>% -->
-<!--   detailed_entries( -->
-<!--     why = detail, -->
-<!--   ) -->
-
-<!-- ``` -->
-
 # Experience
 
 ```{r EXPERIENCE}

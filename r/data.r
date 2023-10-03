@@ -1,10 +1,3 @@
-# summary <- tribble(
-#   ~detail,
-#   "A highly motivated Bachelor of Computer Science with Honours (Information Security and Assurance) graduate with the Google Data Analytics Professional Certificate, Google Business Intelligence Professional Certificate and pursuing Google Advanced Data Analytics Professional Certificate.",
-#   "Strong analytical and problem-solving skills with experience in data collection, cleaning, analysis, and visualization with proficiency in Spreadsheets (Microsoft Excel & Google Sheets), Databases (SQL), Data Visualisation (Tableau & Microsoft Power BI) and Programming Languages (Python & R).",
-#   "Attention to detail and the ability to work effectively in a team where I seek opportunities to apply my skills and knowledge to drive data-driven insights and business outcomes."
-# )
-
 experience <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
   "System Analyst", "Pipeline Network Sdn. Bhd. | Full-time", "Aug", 2022, "Jan", 2023, "Petaling Jaya, Selangor, Malaysia", "Work alongside clients, subject matter experts (SME), developers and project managers by communicating with them about the designated project to ensure it goes smoothly by documenting the requirements, doing data transformation and creating dashboards. Next, follow through the Software Development Life Cycle (SDLC) as each phase significantly contributes to submitting deliverables before the deadline.",
@@ -43,7 +36,7 @@ awards <- tribble(
 skills <- tribble(
   ~accomplishment, ~detail,
   "Industry Knowledge", "Data Analytics • Business Intelligence (BI) • Data Visualization • RStudio • Extract, Transform, Load (ETL) • Heroku",
-  "Tools and Technologies", "Python (Programming Language) • R (Programming Language) • Tableau • SQL • GtiHub • Microsoft 365 • Google Workspace • Google Cloud Platform (GCP) • Google BigQuery • Amazon Web Services (AWS) • PostgreSQL • SQLite • CSS • HTML • Django",
+  "Tools and Technologies", "Python (Programming Language) • R (Programming Language) • Tableau • SQL • GitHub • Microsoft 365 • Google Workspace • Google Cloud Platform (GCP) • Google BigQuery • Amazon Web Services (AWS) • PostgreSQL • SQLite • CSS • HTML • Django",
   "Languages", "Malay (Native or bilingual proficiency)",
   "Languages", "English (Full professional proficiency)",
   "Languages", "Arabic (Limited working proficiency)",
